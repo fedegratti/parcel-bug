@@ -5,6 +5,8 @@ export default class Api {
         let clamped_number = TMath.clamp(2, 0, 1);
 
         let result = Math.max(clamped_number, 3);
+
+        console.log(result);
     }
 }
 
